@@ -45,6 +45,7 @@ export const BoxMyName = styled.div`
     h1{
         color: #836FFF;
         margin: 0 0 1rem 0;
+        font-family: 'Montserrat', sans-serif;
     }
 
 `
@@ -54,6 +55,7 @@ export const BoxPais = styled.div`
     p{
         color: #836FFF;
         margin: 0 0 1rem 0;
+        font-family: 'Montserrat', sans-serif;
     }
 
 `
