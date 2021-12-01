@@ -54,10 +54,10 @@ export function Header() {
                 </S.BoxPais>
                 <S.BoxNav>
                     <S.BoxGitHub>
-                        <a href="https://github.com/davidgomes27"><img style={{width:'100%' , height:'100%'}} src={github.url}/></a>
+                        <a href="https://github.com/davidgomes27" target="_blank"><img style={{width:'100%' , height:'100%'}} src={github.url}/></a>
                     </S.BoxGitHub>
                     <S.BoxLinkedin>
-                        <a href="https://www.linkedin.com/in/gomesdavidsilva/"><img style={{width:'100%' , height:'100%'}} src={linkedin.url}/></a>
+                        <a href="https://www.linkedin.com/in/gomesdavidsilva/" target="_blank"><img style={{width:'100%' , height:'100%'}} src={linkedin.url}/></a>
                     </S.BoxLinkedin>
                 </S.BoxNav>
             </S.Container>

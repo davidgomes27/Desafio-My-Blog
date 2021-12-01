@@ -27,7 +27,7 @@ export const BoxTitleProject = styled.div`
 
     &:before{
         content:"";
-        width: 50rem;
+        width: 100%;
         height: 1px;
         position: absolute;
         background-color: #836FFF;
@@ -62,6 +62,7 @@ export const BoxIMGCard = styled.div`
     bottom: 8rem;
     animation: scaledown .4s linear ;
     animation-fill-mode: forwards;
+    margin-bottom: 1rem;
     
 
     &:hover{
@@ -85,6 +86,7 @@ export const BoxIMGCard = styled.div`
         }
         100%{
             transform: scale(1.1);
+            box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.3);
         }
     }
     
