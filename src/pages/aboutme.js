@@ -1,6 +1,8 @@
 import React from 'react'
 import * as S from "../Components/Syle_About/styles"
 import GlobalStyle from '../Components/GlobalStyles/global.js'
+import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 import { graphql, useStaticQuery } from "gatsby"
 
 
@@ -21,6 +23,12 @@ export default function Aboutme() {
                     text3
                     text4
                     titlemyname
+                    imgseta1 {
+                        url
+                    }
+                    imgseta2 {
+                        url
+                    }
                 }
             }
         }
@@ -39,12 +47,20 @@ export default function Aboutme() {
         text3,
         text4,
         titlemyname,
+        imgseta1,
+        imgseta2,
 
     } = data.alldata.sobremims[0]
     return (
         <div>
+            <Helmet>
+                <title>Sobre Mim</title>
+            </Helmet>
             <GlobalStyle />
             <S.SectionWaves>
+                <S.BoxSeta>
+                   <Link to="/"> <img className="IMGSETA" src={imgseta2.url} alt="imagem de uma seta para esquerda"/></Link>
+                </S.BoxSeta>
                 <S.BoxTitle>
                     <h1 className="Title_About_Me">{titlesobremim}</h1>
                 </S.BoxTitle>
