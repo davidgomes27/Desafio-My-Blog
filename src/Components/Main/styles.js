@@ -5,7 +5,7 @@ export const Main = styled.main`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: 	#A9A9A9;
+    background-color: #A9A9A9;
     flex-direction: column;
 
 `
@@ -19,22 +19,41 @@ export const BoxTitleProject = styled.div`
     position: relative;
     bottom: 3rem;
 
+    &:hover{
+        &:before{
+            content:"";
+            width: 80%;
+            height: 1px;
+            position: absolute;
+            background-color: #836FFF;
+            top: 5rem;
+            animation: linedown 0.500s ease-in-out forwards;
+            
+        }
+    }
+
+    @keyframes linedown{
+        from{
+            width: 0%;
+        }
+        to{
+            width: 80%;
+        }
+    }
+
+    .Link{
+        text-decoration: none;
+    }
+
     p{
         font-size: 3rem;
         font-family: 'Montserrat', sans-serif;
         color: #836FFF;
-    }
 
-    &:before{
-        content:"";
-        width: 100%;
-        height: 1px;
-        position: absolute;
-        background-color: #836FFF;
-        top: 5rem;
         
-
     }
+
+    
 `
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import * as S from "./styles"
+import { Link } from 'gatsby'
 import { graphql, useStaticQuery } from "gatsby"
 
 export function Main() {
@@ -65,7 +66,7 @@ export function Main() {
         </S.BoxIMGCard>
       </S.SectionCards>
       <S.BoxTitleProject>
-        <p>{titleprojects}</p>
+        <Link className="Link" to="/projetos"><p>{titleprojects}</p></Link>
       </S.BoxTitleProject>
     </S.Main>
   )
