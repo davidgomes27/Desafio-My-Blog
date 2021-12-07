@@ -6,6 +6,10 @@ export const Header = styled.header`
     justify-content: center;
     align-items: center;
     background-color: #1C1C1C;
+    background-image: url(${prop => prop.back});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
 `
 
 export const Container = styled.section`
@@ -16,6 +20,7 @@ export const Container = styled.section`
     justify-content: center;
     align-items: center;
     padding: 2rem 0 15rem 0;
+    
 
 `
 
@@ -34,7 +39,7 @@ export const BoxImG = styled.div`
     height: 10rem;
     border-radius: 100%;
     overflow: hidden;
-    border: 5px solid #836FFF;
+    border: 5px solid #000;
     margin: 4rem 0 1rem 0;
     
 
@@ -43,7 +48,7 @@ export const BoxImG = styled.div`
 export const BoxMyName = styled.div`
 
     h1{
-        color: #836FFF;
+        color: #000;
         margin: 0 0 1rem 0;
         font-family: 'Montserrat', sans-serif;
     }
@@ -53,8 +58,9 @@ export const BoxMyName = styled.div`
 export const BoxPais = styled.div`
 
     p{
-        color: #836FFF;
+        color: #000;
         margin: 0 0 1rem 0;
+        font-weight: bolder;
         font-family: 'Montserrat', sans-serif;
     }
 

@@ -47,24 +47,62 @@ export const SectionProjetos =styled.section`
     align-items: center;
     width: 100%;
     background-color: #A9A9A9;
+    padding: 4rem 0;
 `
 
 export const Boxprojetos =styled.div`
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    gap: 2rem;
     width: 80%;
     max-width: 1690px;
 `
 
 export const CardProjets = styled.div`
-    width: 20rem;
+    width: 30rem;
     height: 20rem;
+    background-image: url(${prop => prop.background});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 
+   &:hover .boxtitle{
+       
+       color: #fff;
+       animation: visivel 0.500s ease-in-out forwards;
+   }
 
-    .IMG{
+   
+    .boxtitle{
+        text-align: center;
         width: 100%;
-        height: 100%;
+        height: 5rem;
+        position: absolute;
+        bottom: 0px;
+        color: transparent;
+        overflow: hidden;
+        background-color: transparent;
     }
+
+   
+
+
+    @keyframes visivel {
+        from{
+            background-color: transparent;
+            color: transparent;
+        }
+        to{
+            
+            color: #fff;
+        }
+    }
+`
+
+export const BoxTitle = styled.div`
+
+
 `

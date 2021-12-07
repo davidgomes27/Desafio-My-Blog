@@ -15,6 +15,9 @@ export function Header() {
                     linkedin {
                       url
                     }
+                    backgroundheader {
+                        url
+                      }
                     titledavid
                     titlegithub
                     titlelinkedin
@@ -35,12 +38,13 @@ export function Header() {
         titledavid,
         titlegithub,
         titlelinkedin,
+        backgroundheader,
 
 
     } = data.alldata.headers[0]
     return (
-        <S.Header>
-            <S.Container>
+        <S.Header back={backgroundheader.url}>
+            <S.Container >
                 <S.BoxPerfil>
                     <S.BoxImG>
                         <img style={{width:'100%' , height:'127%'}} src={perfil.url} alt="imagem de perfil"/>

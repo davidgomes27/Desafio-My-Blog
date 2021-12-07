@@ -92,30 +92,30 @@ export default function Projetos() {
             </S.Sectiontitleprojeto>
             <S.SectionProjetos>
                 <S.Boxprojetos>
-                    <S.CardProjets>
-                        <a href="">
-                            <img className="IMG" src={imgprojeto1.url} alt="imagem ilustrativa do projeto" />
-                        </a>
+                    <S.CardProjets className="cardprojetos" background = {imgprojeto1.url}>
+                        <S.BoxTitle className="boxtitle">
+                            <h2 className="Title">{titleprojeto1}</h2>                        
+                        </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets>
-                        <a href="">
-                            <img className="IMG" src={imgprojeto2.url} alt="imagem ilustrativa do projeto" />
-                        </a>
+                    <S.CardProjets className="cardprojetos" background = {imgprojeto2.url}>
+                        <S.BoxTitle className="boxtitle">
+                            <h2 className="Title">{titleprojeto2}</h2>
+                        </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets>
-                        <a href="">
-                            <img className="IMG" src={imgprojeto3.url} alt="imagem ilustrativa do projeto" />
-                        </a>
+                    <S.CardProjets className="cardprojetos" background = {imgprojeto3.url}>
+                        <S.BoxTitle className="boxtitle">
+                            <h2 className="Title">{titleprojeto3}</h2>
+                        </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets>
-                        <a href="">
-                            <img className="IMG" src={imgprojeto4.url} alt="imagem ilustrativa do projeto" />
-                        </a>
+                    <S.CardProjets className="cardprojetos" background = {imgprojeto4.url}>
+                        <S.BoxTitle className="boxtitle">
+                            <h2 className="Title">{titleprojeto4}</h2>                           
+                        </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets>
-                        <a href="">
-                            <img className="IMG" src={imgprojeto5.url} alt="imagem ilustrativa do projeto" />
-                        </a>
+                    <S.CardProjets className="cardprojetos" background = {imgprojeto5.url}>
+                        <S.BoxTitle className="boxtitle">
+                            <h2 className="Title">{titleprojeto5}</h2>
+                        </S.BoxTitle>
                     </S.CardProjets>
                 </S.Boxprojetos>
             </S.SectionProjetos>

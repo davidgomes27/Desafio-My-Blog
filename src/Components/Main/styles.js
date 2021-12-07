@@ -25,7 +25,7 @@ export const BoxTitleProject = styled.div`
             width: 80%;
             height: 1px;
             position: absolute;
-            background-color: #836FFF;
+            background-color: #000;
             top: 5rem;
             animation: linedown 0.500s ease-in-out forwards;
             
@@ -48,7 +48,7 @@ export const BoxTitleProject = styled.div`
     p{
         font-size: 3rem;
         font-family: 'Montserrat', sans-serif;
-        color: #836FFF;
+        color: #000;
 
         
     }
@@ -79,14 +79,14 @@ export const BoxIMGCard = styled.div`
     background-image: url(${prop => prop.back});
     position: relative;
     bottom: 8rem;
-    animation: scaledown .4s linear ;
-    animation-fill-mode: forwards;
+    animation: scaledown .4s linear forwards;
+    
     margin-bottom: 1rem;
     
 
     &:hover{
-        animation: scale 0.4s linear;
-        animation-fill-mode: forwards;
+        animation: scale 0.4s linear forwards;
+        
     }
 
     @keyframes scaledown{

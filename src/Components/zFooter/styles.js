@@ -18,7 +18,7 @@ export const BoxTitle = styled.div`
 
 
     .TitleSobreMIM{
-        color: #836FFF;
+        color: #000;
         font-size: 300%;
         font-family: 'Montserrat', sans-serif;
         padding-left: 3rem;
@@ -35,7 +35,8 @@ export const BoxCopyHight = styled.div`
     padding: 2rem 0;
 
     .CopyHight{
-       color: #836FFF; 
+       color: #fff;
+       font-size : 12px;
        padding-right: 2rem;
        font-family: 'Montserrat', sans-serif;
     }
