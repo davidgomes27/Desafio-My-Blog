@@ -31,8 +31,6 @@ export function Footer() {
 
         titlecopyright,
         titlesobremim,
-        imglua,
-        imgsol,
 
     } = data.alldata.footers[0]
     return (

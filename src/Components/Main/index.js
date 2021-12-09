@@ -36,16 +36,13 @@ export function Main() {
 
 
   const {
+    
     projectaxi,
     projectcathouse,
     projectcrespos,
     projectrecipes,
-    titleprojectcathouse,
-    titleprojectcrespos,
-    titleprojectrecipes,
     titleprojects,
-    titleprojecttaxi,
-
+    
   } = data.alldata.mains[0]
 
 
