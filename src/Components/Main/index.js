@@ -39,7 +39,6 @@ export function Main() {
     
     projectaxi,
     projectcathouse,
-    projectcrespos,
     projectrecipes,
     titleprojects,
     
@@ -56,9 +55,6 @@ export function Main() {
 
         </S.BoxIMGCard>
         <S.BoxIMGCard  back={projectrecipes.url}>
-
-        </S.BoxIMGCard>
-        <S.BoxIMGCard back={projectcrespos.url}>
 
         </S.BoxIMGCard>
       </S.SectionCards>

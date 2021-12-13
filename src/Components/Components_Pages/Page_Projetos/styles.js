@@ -10,6 +10,23 @@ export const Container = styled.div`
 `
 
 export const Sectiontitleprojeto = styled.section`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(${prop => prop.back});
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    .Title{
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: max(25px, 3vw);
+        color: #FFFFFF;
+        text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    }
+`
+export const Boxtitleprojeto = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,15 +34,10 @@ export const Sectiontitleprojeto = styled.section`
     max-width: 1690px;
     padding: 18rem 0;
     position: relative;
-    background-color: #1C1C1C;
+    
 
-    .Title{
-        color: #836FFF;
-        font-family: 'Montserrat', sans-serif;
-        font-size: max(25px, 3vw);
-    }
+
 `
-
 export const BoxSetaHome = styled.div`
     width: 2rem;
     height: 1.700rem;
@@ -80,13 +92,13 @@ export const CardProjets = styled.div`
             border-radius: 0px;
         }
         to{
-            border-radius: 30px;
+            border-radius: 20px 20px 0px 0px;
         }
     }
 
     @keyframes borderradiusreverse {
         from{
-            border-radius: 30px;
+            border-radius: 20px 20px 0px 0px;
         }
         to{
             border-radius: 0px;

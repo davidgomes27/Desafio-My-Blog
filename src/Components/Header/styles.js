@@ -39,7 +39,7 @@ export const BoxImG = styled.div`
     height: 10rem;
     border-radius: 100%;
     overflow: hidden;
-    border: 5px solid #000;
+    border: 5px solid #fff;
     margin: 4rem 0 1rem 0;
     
 
@@ -48,9 +48,11 @@ export const BoxImG = styled.div`
 export const BoxMyName = styled.div`
 
     h1{
-        color: #000;
+        
         margin: 0 0 1rem 0;
         font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF;
+        text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     }
 
 `
@@ -58,10 +60,12 @@ export const BoxMyName = styled.div`
 export const BoxPais = styled.div`
 
     p{
-        color: #000;
+        
         margin: 0 0 1rem 0;
         font-weight: bolder;
         font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF;
+        text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
     }
 
 `

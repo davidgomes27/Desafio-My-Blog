@@ -18,26 +18,28 @@ export const BoxTitleProject = styled.div`
     align-items: center;
     position: relative;
     bottom: 3rem;
+    
 
     &:hover{
+        
         &:before{
             content:"";
-            width: 80%;
+            width: 50%;
             height: 1px;
             position: absolute;
-            background-color: #000;
+            background-color: #fff;
             top: 5rem;
-            animation: linedown 0.500s ease-in-out forwards;
+            animation: lineup 0.500s ease-in-out forwards;
             
         }
     }
 
-    @keyframes linedown{
+    @keyframes lineup{
         from{
             width: 0%;
         }
         to{
-            width: 80%;
+            width: 50%;
         }
     }
 
@@ -48,7 +50,8 @@ export const BoxTitleProject = styled.div`
     p{
         font-size: 3rem;
         font-family: 'Montserrat', sans-serif;
-        color: #000;
+        color: #FFFFFF;
+        text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
 
         
     }
@@ -58,7 +61,7 @@ export const BoxTitleProject = styled.div`
 
 
 export const SectionCards = styled.section`
-    width: 90%;
+    width: 75%;
     max-width: 1690px;
     display: flex;
     flex-wrap: wrap;
@@ -92,9 +95,13 @@ export const BoxIMGCard = styled.div`
     @keyframes scaledown{
         0%{
             transform: scale(1.1);
+            box-shadow: 10px 10px 60px 10px rgba(0,0,0,0.3);
         }
         100%{
             transform: scale(1.0);
+            -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
         }
     }
 
@@ -102,6 +109,9 @@ export const BoxIMGCard = styled.div`
     @keyframes scale{
         0%{
             transform: scale(1);
+            -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
         }
         100%{
             transform: scale(1.1);

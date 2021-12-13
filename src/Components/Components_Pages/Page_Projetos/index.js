@@ -68,7 +68,8 @@ export default function Projetos() {
         titleprojeto5,
         titleresponsivo,
         titleprojeto,
-        setaesquerda
+        setaesquerda,
+        imgbacgroundcodigo
 
     } = data.alldata.projetos[0]
 
@@ -78,40 +79,42 @@ export default function Projetos() {
                 <title>Projetos</title>
             </Helmet>
             <GlobalStyle />
-            <S.Sectiontitleprojeto >
-                <S.BoxSetaHome>
-                    <Link to="/"><img className="IMG" src={setaesquerda.url} alt="imagem de uma seta para esquerda" /></Link>
-                </S.BoxSetaHome>
-                <p className="Title">{titleprojeto}</p>
+            <S.Sectiontitleprojeto back={imgbacgroundcodigo.url} >
+                <S.Boxtitleprojeto >
+                    <S.BoxSetaHome>
+                        <Link to="/"><img className="IMG" src={setaesquerda.url} alt="imagem de uma seta para esquerda" /></Link>
+                    </S.BoxSetaHome>
+                    <p className="Title">{titleprojeto}</p>
+                </S.Boxtitleprojeto>
             </S.Sectiontitleprojeto>
             <S.SectionProjetos>
                 <S.Boxprojetos>
-                    <S.CardProjets className="cardprojetos" background = {imgprojeto1.url}>
+                    <S.CardProjets className="cardprojetos" background={imgprojeto1.url}>
                         <S.BoxTitle className="boxtitle1">
                             <h2 className="Title">{titleprojeto1}</h2>
-                            <h2 className='Title'>{titledesktop}</h2>                        
+                            <h2 className='Title'>{titledesktop}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets className="cardprojetos" background = {imgprojeto2.url}>
+                    <S.CardProjets className="cardprojetos" background={imgprojeto2.url}>
                         <S.BoxTitle className="boxtitle2">
                             <h2 className="Title">{titleprojeto2}</h2>
                             <h2 className='Title'>{titledesktop}</h2>
                             <h2 className='Title'>{titleresponsivo}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets className="cardprojetos" background = {imgprojeto3.url}>
+                    <S.CardProjets className="cardprojetos" background={imgprojeto3.url}>
                         <S.BoxTitle className="boxtitle3">
                             <h2 className="Title">{titleprojeto3}</h2>
                             <h2 className='Title'>{titledesktop}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets className="cardprojetos" background = {imgprojeto4.url}>
+                    <S.CardProjets className="cardprojetos" background={imgprojeto4.url}>
                         <S.BoxTitle className="boxtitle4">
                             <h2 className="Title">{titleprojeto4}</h2>
-                            <h2 className='Title'>{titledesktop}</h2>                           
+                            <h2 className='Title'>{titledesktop}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
-                    <S.CardProjets className="cardprojetos" background = {imgprojeto5.url}>
+                    <S.CardProjets className="cardprojetos" background={imgprojeto5.url}>
                         <S.BoxTitle className="boxtitle5">
                             <h2 className="Title">{titleprojeto5}</h2>
                             <h2 className='Title'>{titledesktop}</h2>
