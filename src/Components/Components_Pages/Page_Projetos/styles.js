@@ -72,8 +72,10 @@ export const Boxprojetos =styled.div`
     max-width: 1690px;
 `
 
+
+
 export const CardProjets = styled.div`
-    width: 30rem;
+    width: 18rem;
     height: 20rem;
     background-image: url(${prop => prop.background});
     background-repeat: no-repeat;
@@ -81,6 +83,9 @@ export const CardProjets = styled.div`
     background-position: center;
     position: relative;
     animation: borderradiusreverse 0.500s ease-in-out forwards;
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.75);
 
 
     &:hover{

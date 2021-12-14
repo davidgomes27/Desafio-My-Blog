@@ -119,7 +119,7 @@ export const BoxAboutMe = styled.div`
     height: 500px;
     overflow: auto;
     padding: 3rem 3rem 3rem 3rem;
-   
+    gap: 2rem;
        
     .ASS{
 
@@ -129,12 +129,14 @@ export const BoxAboutMe = styled.div`
 `
 
 export const Text = styled.h2`
-
-        font-size: max(30px, 2vw);
+        margin: 0rem 0 2rem 0;
+        font-size: max(30px, 3vw);
         display: flex;
         flex-wrap: wrap;
         text-align: flex-start;
         color: #fff;
+        font-family: 'Gwendolyn', cursive;
+
         
         
 `

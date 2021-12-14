@@ -48,10 +48,10 @@ export function Main() {
   return (
     <S.Main>
       <S.SectionCards>
-        <S.BoxIMGCard back={projectaxi.url}>
+        <S.BoxIMGCard back={projectcathouse.url}>
 
         </S.BoxIMGCard>
-        <S.BoxIMGCard  back={projectcathouse.url}>
+        <S.BoxIMGCard  back={projectaxi.url}>
 
         </S.BoxIMGCard>
         <S.BoxIMGCard  back={projectrecipes.url}>

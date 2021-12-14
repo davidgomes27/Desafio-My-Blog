@@ -89,12 +89,15 @@ export default function Projetos() {
             </S.Sectiontitleprojeto>
             <S.SectionProjetos>
                 <S.Boxprojetos>
-                    <S.CardProjets className="cardprojetos" background={imgprojeto1.url}>
-                        <S.BoxTitle className="boxtitle1">
-                            <h2 className="Title">{titleprojeto1}</h2>
-                            <h2 className='Title'>{titledesktop}</h2>
-                        </S.BoxTitle>
-                    </S.CardProjets>
+                    <a className='HyperLink' href='https://condescending-rosalind-64cef3.netlify.app' target="_blank" rel='noopener noreferrer'>
+                        <S.CardProjets className="cardprojetos" background={imgprojeto1.url}>
+                            <S.BoxTitle className="boxtitle1">
+                                <h2 className="Title">{titleprojeto1}</h2>
+                                <h2 className='Title'>{titledesktop}</h2>
+                            </S.BoxTitle>
+                        </S.CardProjets>
+                    </a>
+                    <a className='HyperLink' href='https://laughing-villani-351a06.netlify.app' target="_blank" rel='noopener noreferrer'>
                     <S.CardProjets className="cardprojetos" background={imgprojeto2.url}>
                         <S.BoxTitle className="boxtitle2">
                             <h2 className="Title">{titleprojeto2}</h2>
@@ -102,24 +105,31 @@ export default function Projetos() {
                             <h2 className='Title'>{titleresponsivo}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
+                     </a>
+                    <a className='HyperLink' href='https://relaxed-euclid-a55bc7.netlify.app' target="_blank" rel='noopener noreferrer'>
                     <S.CardProjets className="cardprojetos" background={imgprojeto3.url}>
                         <S.BoxTitle className="boxtitle3">
                             <h2 className="Title">{titleprojeto3}</h2>
                             <h2 className='Title'>{titledesktop}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
+                     </a>
+                    <a className='HyperLink' href='https://confident-bell-4798ab.netlify.app' target="_blank" rel='noopener noreferrer'>
                     <S.CardProjets className="cardprojetos" background={imgprojeto4.url}>
                         <S.BoxTitle className="boxtitle4">
                             <h2 className="Title">{titleprojeto4}</h2>
                             <h2 className='Title'>{titledesktop}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
+                    </a>
+                    <a className='HyperLink' href='https://keen-payne-5fc38b.netlify.app' target="_blank" rel='noopener noreferrer'>
                     <S.CardProjets className="cardprojetos" background={imgprojeto5.url}>
                         <S.BoxTitle className="boxtitle5">
                             <h2 className="Title">{titleprojeto5}</h2>
                             <h2 className='Title'>{titledesktop}</h2>
                         </S.BoxTitle>
                     </S.CardProjets>
+                    </a>
                 </S.Boxprojetos>
             </S.SectionProjetos>
         </S.Container>
