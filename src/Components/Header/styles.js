@@ -75,7 +75,7 @@ export const BoxNav = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.500rem;
 `
 
 export const BoxGitHub = styled.div`

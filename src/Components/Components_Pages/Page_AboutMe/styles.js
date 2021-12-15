@@ -79,8 +79,8 @@ export const BoxTitle = styled.div`
 `
 
 export const BoxSeta = styled.div`
-        width: 3rem;
-        height: 3rem;
+        width: 2rem;
+        height: 2rem;
         position: absolute;
         top: 2rem;
         left: 3rem;
@@ -107,24 +107,19 @@ export const BoxContainerAboutMe = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 80%;
     max-width: 1690px;
-    border: 2px solid #fff;
-    margin: 3rem;
+    border: 1px solid #fff;
+    margin: 1rem;
 `
 
 export const BoxAboutMe = styled.div`
     width: 100%;
     height: 500px;
     overflow: auto;
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 1rem 1rem 1rem 1rem;
     gap: 2rem;
-       
-    .ASS{
-
-    }
-
     
 `
 
